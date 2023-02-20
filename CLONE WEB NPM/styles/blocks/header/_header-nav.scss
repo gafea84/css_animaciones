@@ -1,0 +1,13 @@
+/* HEADER NAV */
+.header-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    &__link {
+        padding: 4px;
+        text-decoration: none;
+        color: #000;
+    }
+}

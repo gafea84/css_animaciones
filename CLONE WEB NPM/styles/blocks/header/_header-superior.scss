@@ -1,0 +1,23 @@
+.header-superior {
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    padding: 5px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__nav {
+        order: -1;
+        @media (min-width: 768px) {
+            order: 0;
+        }
+    }
+}
